@@ -45,6 +45,8 @@ target 'RocketChatRN' do
   pod 'Crashlytics', '~> 3.12.0'
   pod 'GoogleIDFASupport', '~> 3.14.0'
   pod 'Firebase/Performance', '~> 5.20.1'
+  pod 'Firebase/Analytics'
+  pod 'Firebase/DynamicLinks'
 
   use_unimodules!
 
